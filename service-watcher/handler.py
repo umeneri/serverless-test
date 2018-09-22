@@ -1,5 +1,5 @@
-import wacher
+import watcher
+import platform_info
 
-# Lambdaはこの関数を呼び出す
 def hello(event, context):
-    watcher.watch("https://example.com")
+    return platform_info.information()
